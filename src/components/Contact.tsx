@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Card, CardContent } from './ui/card';
 import { Button } from './ui/button';
-import { Mail, MessageSquare, Linkedin, GitHub } from 'lucide-react';
+import { Mail, MessageSquare, Linkedin, Github } from 'lucide-react';
 
 const Contact = () => {
   const { t } = useLanguage();
@@ -28,7 +27,7 @@ const Contact = () => {
       href: 'https://linkedin.com/in/gabriel-oliveira-4675711a4',
     },
     {
-      icon: <GitHub className="h-6 w-6" />,
+      icon: <Github className="h-6 w-6" />,
       title: t('contact.github'),
       value: 'httpg44b',
       href: 'https://github.com/httpg44b',

@@ -1,8 +1,7 @@
-
 import React, { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Button } from './ui/button';
-import { Menu, X, GitHub, Linkedin, MessageSquare } from 'lucide-react';
+import { Menu, X, Github, Linkedin, MessageSquare } from 'lucide-react';
 
 const Header = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -60,7 +59,7 @@ const Header = () => {
             className="text-muted-foreground hover:text-foreground transition-colors"
             aria-label="GitHub"
           >
-            <GitHub size={20} />
+            <Github size={20} />
           </a>
           <a 
             href="https://linkedin.com/in/gabriel-oliveira-4675711a4" 
@@ -115,7 +114,7 @@ const Header = () => {
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="GitHub"
               >
-                <GitHub size={20} />
+                <Github size={20} />
               </a>
               <a 
                 href="https://linkedin.com/in/gabriel-oliveira-4675711a4" 

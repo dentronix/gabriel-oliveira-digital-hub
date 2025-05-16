@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from './ui/card';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
-import { GitHub } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const Projects = () => {
   const { t } = useLanguage();
@@ -62,7 +61,7 @@ const Projects = () => {
               <CardFooter>
                 <Button variant="outline" size="sm" className="w-full" asChild>
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                    <GitHub size={16} />
+                    <Github size={16} />
                     <span>{t('projects.viewGithub')}</span>
                   </a>
                 </Button>
