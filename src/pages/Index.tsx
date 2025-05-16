@@ -6,6 +6,7 @@ import About from '../components/About';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Events from '../components/Events';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import { LanguageProvider } from '../contexts/LanguageContext';
@@ -20,6 +21,7 @@ const Index = () => {
         <Experience />
         <Projects />
         <Skills />
+        <Events />
         <Contact />
         <Footer />
       </div>
