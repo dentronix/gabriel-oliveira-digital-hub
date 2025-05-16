@@ -40,6 +40,10 @@ const translations: Record<string, Record<Language, string>> = {
     en: 'About Me',
     pt: 'Sobre Mim',
   },
+  'about.brief': {
+    en: 'BI Intern with experience in Python automation, ETL processes, and data integration',
+    pt: 'Estagiário de BI com experiência em automação com Python, processos ETL e integração de dados',
+  },
   'about.description': {
     en: 'I am a BI Intern with experience in automation using Python, ETL, SQL, Microsoft Fabric, and Power BI. I\'ve worked at companies like Engeform, BS Tecnologia, and YKP. I hold a degree in Data Science from Mackenzie and a technical certification in Networks/Development from ETEC.',
     pt: 'Sou um Estagiário de BI com experiência em automação com Python, ETL, SQL, Microsoft Fabric e Power BI. Trabalhei em empresas como Engeform, BS Tecnologia e YKP. Possuo formação em Data Science pela Mackenzie e técnico em Redes/Desenvolvimento pela ETEC.',

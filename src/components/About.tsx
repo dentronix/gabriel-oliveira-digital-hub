@@ -2,6 +2,8 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Card, CardContent } from './ui/card';
+import { AspectRatio } from './ui/aspect-ratio';
+import { Avatar, AvatarImage, AvatarFallback } from './ui/avatar';
 
 const About = () => {
   const { t } = useLanguage();
@@ -9,7 +11,24 @@ const About = () => {
   return (
     <section id="about" className="bg-secondary/5">
       <div className="container mx-auto">
-        <h2 className="section-title">{t('about.title')}</h2>
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-8">
+          <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-primary/20 shadow-xl">
+            <AspectRatio ratio={1/1} className="bg-background">
+              <img 
+                src="/lovable-uploads/d5c1ffd3-159a-4e7c-9010-0ca157ac5fc3.png" 
+                alt="Gabriel Oliveira" 
+                className="object-cover w-full h-full"
+              />
+            </AspectRatio>
+          </div>
+          
+          <div>
+            <h2 className="section-title">{t('about.title')}</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mb-4">
+              {t('about.brief')}
+            </p>
+          </div>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Card className="bg-card/50 border-border card-hover">
