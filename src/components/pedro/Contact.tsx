@@ -12,20 +12,20 @@ const Contact = () => {
     {
       icon: Mail,
       label: t('contact.email'),
-      value: 'pedro.eduardo@email.com',
-      href: 'mailto:pedro.eduardo@email.com',
+      value: 'Pedroeduardo902@gmail.com',
+      href: 'mailto:Pedroeduardo902@gmail.com',
     },
     {
       icon: MessageCircle,
       label: t('contact.whatsapp'),
-      value: '+55 11 99999-9999',
-      href: 'https://wa.me/5511999999999',
+      value: '+55 11 96408-5178',
+      href: 'https://wa.me/5511964085178',
     },
     {
       icon: Linkedin,
       label: t('contact.linkedin'),
       value: 'Pedro Eduardo',
-      href: 'https://linkedin.com/in/pedro-eduardo',
+      href: 'https://www.linkedin.com/in/pedro-eduardo901/',
     },
     {
       icon: Github,
