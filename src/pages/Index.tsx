@@ -1,15 +1,15 @@
 
 import React from 'react';
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import About from '../components/About';
-import Experience from '../components/Experience';
-import Projects from '../components/Projects';
-import Skills from '../components/Skills';
-import Events from '../components/Events';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
-import { LanguageProvider } from '../contexts/LanguageContext';
+import Header from '../components/pedro/Header';
+import Hero from '../components/pedro/Hero';
+import About from '../components/pedro/About';
+import Experience from '../components/pedro/Experience';
+import Projects from '../components/pedro/Projects';
+import Skills from '../components/pedro/Skills';
+import Events from '../components/pedro/Events';
+import Contact from '../components/pedro/Contact';
+import Footer from '../components/pedro/Footer';
+import { LanguageProvider } from '../contexts/PedroLanguageContext';
 
 const Index = () => {
   return (
