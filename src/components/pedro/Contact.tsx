@@ -49,7 +49,7 @@ const Contact = () => {
               <CardContent className="p-6 text-center">
                 <method.icon className="w-8 h-8 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">{method.label}</h3>
-                <p className="text-muted-foreground text-sm mb-4">{method.value}</p>
+                <p className="text-muted-foreground text-sm mb-4 break-words overflow-hidden">{method.value}</p>
                 <Button variant="outline" size="sm" asChild>
                   <a href={method.href} target="_blank" rel="noopener noreferrer">
                     Contatar
