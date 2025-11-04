@@ -35,18 +35,24 @@ const translations: Record<string, Record<Language, string>> = {
     pt: 'Contato',
   },
   
+  // Hero
+  'hero.subtitle': {
+    en: 'Mid-Level BI Analyst | Data Consultant | Power BI Specialist',
+    pt: 'Analista de BI Pleno | Consultor de Dados | Especialista em Power BI',
+  },
+  
   // About
   'about.title': {
     en: 'About Me',
     pt: 'Sobre Mim',
   },
   'about.brief': {
-    en: 'BI Intern with experience in Python automation, ETL processes, and data integration',
-    pt: 'Estagiário de BI com experiência em automação com Python, processos ETL e integração de dados',
+    en: 'Resilient and dedicated data consultant with expertise in creating dashboards, KPIs, and management reports',
+    pt: 'Consultor de dados resiliente e dedicado com expertise em criação de dashboards, KPIs e relatórios gerenciais',
   },
   'about.description': {
-    en: 'I am a BI Intern with experience in automation using Python, ETL, SQL, Microsoft Fabric, and Power BI. I\'ve worked at companies like Engeform, BS Tecnologia, and YKP. I hold a degree in Data Science from Mackenzie and a technical certification in Networks/Development from ETEC.',
-    pt: 'Sou um Estagiário de BI com experiência em automação com Python, ETL, SQL, Microsoft Fabric e Power BI. Trabalhei em empresas como Engeform, BS Tecnologia e YKP. Possuo formação em Data Science pela Mackenzie e técnico em Redes/Desenvolvimento pela ETEC.',
+    en: 'I am a Mid-Level BI Analyst with extensive experience in automation using Python, ETL processes, SQL Server, Power BI, and Microsoft Fabric. I transform data into strategic insights to support business decisions. Currently working at B2B Mais, with previous experience at Engeform, BS Tecnologia, and YKP. I hold a degree in Data Science from Mackenzie and technical certifications in Systems Development and Computer Networks from ETEC.',
+    pt: 'Sou um Analista de BI Pleno com ampla experiência em automação com Python, processos ETL, SQL Server, Power BI e Microsoft Fabric. Transformo dados em informações estratégicas para apoiar decisões empresariais. Atualmente trabalhando na B2B Mais, com experiências anteriores na Engeform, BS Tecnologia e YKP. Possuo formação em Ciência de Dados pela Mackenzie e certificações técnicas em Desenvolvimento de Sistemas e Redes de Computadores pela ETEC.',
   },
   
   // Experience
@@ -54,21 +60,37 @@ const translations: Record<string, Record<Language, string>> = {
     en: 'Professional Experience',
     pt: 'Experiência Profissional',
   },
+  'experience.b2b.title': {
+    en: 'Mid-Level BI Analyst',
+    pt: 'Analista de BI Pleno',
+  },
+  'experience.b2b.company': {
+    en: 'B2B Mais',
+    pt: 'B2B Mais',
+  },
+  'experience.b2b.period': {
+    en: 'Apr 2025 - Present',
+    pt: 'Abr 2025 - Atual',
+  },
+  'experience.b2b.description': {
+    en: 'Development of dashboards and KPIs in Power BI, data pipeline construction (ETL), API integration, data migration and governance, and participation in agile squads (Scrum).',
+    pt: 'Desenvolvimento de dashboards e KPIs no Power BI, construção de pipelines de dados (ETL), integração com APIs, migração e governança de dados, e participação em squads ágeis (Scrum).',
+  },
   'experience.engeform.title': {
-    en: 'BI Intern',
-    pt: 'Estagiário de BI',
+    en: 'BI Analyst',
+    pt: 'Analista de BI',
   },
   'experience.engeform.company': {
     en: 'Engeform',
     pt: 'Engeform',
   },
   'experience.engeform.period': {
-    en: 'Present',
-    pt: 'Atual',
+    en: 'Nov 2023 - Apr 2025',
+    pt: 'Nov 2023 - Abr 2025',
   },
   'experience.engeform.description': {
-    en: 'Automation with Python, APIs integration, SQL database management, and implementation of AI agents for business intelligence solutions.',
-    pt: 'Automação com Python, integração de APIs, gerenciamento de banco de dados SQL e implementação de agentes de IA para soluções de business intelligence.',
+    en: 'Process automation with Python, data flow creation in Microsoft Fabric, API integration, SQL query optimization, and participation in innovation and AI projects.',
+    pt: 'Automação de processos com Python, criação de fluxos de dados no Microsoft Fabric, integração de APIs, otimização de consultas SQL e participação em projetos de inovação e IA.',
   },
   'experience.bs.title': {
     en: 'Support Analyst',
@@ -79,12 +101,12 @@ const translations: Record<string, Record<Language, string>> = {
     pt: 'BS Tecnologia',
   },
   'experience.bs.period': {
-    en: '2022 - 2023',
-    pt: '2022 - 2023',
+    en: 'Jun 2022 - Nov 2023',
+    pt: 'Jun 2022 - Nov 2023',
   },
   'experience.bs.description': {
-    en: 'Technical support, network management, and asset management for clients.',
-    pt: 'Suporte técnico, gerenciamento de redes e gerenciamento de ativos para clientes.',
+    en: 'Local and remote technical support (TeamViewer, LogMeIn), asset and IT infrastructure management, server backup, and corporate network maintenance.',
+    pt: 'Suporte técnico local e remoto (TeamViewer, LogMeIn), gestão de ativos e infraestrutura de TI, backup de servidores e manutenção de redes empresariais.',
   },
   'experience.ykp.title': {
     en: 'IT Intern',
@@ -95,12 +117,12 @@ const translations: Record<string, Record<Language, string>> = {
     pt: 'YKP',
   },
   'experience.ykp.period': {
-    en: '2021 - 2022',
-    pt: '2021 - 2022',
+    en: 'Jan 2021 - Jul 2021',
+    pt: 'Jan 2021 - Jul 2021',
   },
   'experience.ykp.description': {
-    en: 'GCP implementation, Windows Server management, and IT troubleshooting.',
-    pt: 'Implementação do GCP, gerenciamento do Windows Server e resolução de problemas de TI.',
+    en: 'Windows Server administration, hardware support, participation in Google Cloud Platform (GCP) projects, experience in local and cloud environments.',
+    pt: 'Administração de Windows Server, suporte de hardware, participação em projetos com Google Cloud Platform (GCP), experiência em ambientes locais e em nuvem.',
   },
   
   // Projects
@@ -187,6 +209,94 @@ const translations: Record<string, Record<Language, string>> = {
   'contact.github': {
     en: 'GitHub',
     pt: 'GitHub',
+  },
+  
+  // Education
+  'education.title': {
+    en: 'Education',
+    pt: 'Formação Acadêmica',
+  },
+  'education.mackenzie.degree': {
+    en: 'Technology Degree in Data Science',
+    pt: 'CST em Ciência de Dados',
+  },
+  'education.mackenzie.institution': {
+    en: 'Mackenzie Presbyterian University',
+    pt: 'Universidade Presbiteriana Mackenzie',
+  },
+  'education.mackenzie.year': {
+    en: '2025',
+    pt: '2025',
+  },
+  'education.mackenzie.description': {
+    en: 'Higher education focused on data analysis, machine learning, and statistical modeling.',
+    pt: 'Formação superior com foco em análise de dados, machine learning e modelagem estatística.',
+  },
+  'education.etec_dev.degree': {
+    en: 'Technical in Systems Development',
+    pt: 'Técnico em Desenvolvimento de Sistemas',
+  },
+  'education.etec_dev.institution': {
+    en: 'ETEC',
+    pt: 'ETEC',
+  },
+  'education.etec_dev.year': {
+    en: '2021',
+    pt: '2021',
+  },
+  'education.etec_dev.description': {
+    en: 'Technical training in software development, programming, and database systems.',
+    pt: 'Formação técnica em desenvolvimento de software, programação e sistemas de banco de dados.',
+  },
+  'education.etec_network.degree': {
+    en: 'Technical in Computer Networks',
+    pt: 'Técnico em Redes de Computadores',
+  },
+  'education.etec_network.institution': {
+    en: 'ETEC',
+    pt: 'ETEC',
+  },
+  'education.etec_network.year': {
+    en: '2020',
+    pt: '2020',
+  },
+  'education.etec_network.description': {
+    en: 'Technical training in network infrastructure, administration, and maintenance.',
+    pt: 'Formação técnica em infraestrutura, administração e manutenção de redes.',
+  },
+  
+  // Languages
+  'languages.title': {
+    en: 'Languages',
+    pt: 'Idiomas',
+  },
+  'languages.subtitle': {
+    en: 'Language Proficiency',
+    pt: 'Proficiência em Idiomas',
+  },
+  'languages.portuguese': {
+    en: 'Portuguese',
+    pt: 'Português',
+  },
+  'languages.english': {
+    en: 'English',
+    pt: 'Inglês',
+  },
+  'languages.french': {
+    en: 'French',
+    pt: 'Francês',
+  },
+  'languages.native': {
+    en: 'Native',
+    pt: 'Nativo',
+  },
+  'languages.advanced': {
+    en: 'Advanced',
+    pt: 'Avançado',
+  },
+  'languages.intermediate': {
+    en: 'Intermediate',
+    pt: 'Intermediário',
   },
   
   // Footer

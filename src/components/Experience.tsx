@@ -9,18 +9,25 @@ const Experience = () => {
   
   const experiences = [
     {
+      title: t('experience.b2b.title'),
+      company: t('experience.b2b.company'),
+      period: t('experience.b2b.period'),
+      description: t('experience.b2b.description'),
+      skills: ['Power BI', 'KPIs', 'ETL', 'APIs', 'Data Migration', 'Scrum'],
+    },
+    {
       title: t('experience.engeform.title'),
       company: t('experience.engeform.company'),
-      period: `2023 - ${t('experience.engeform.period')}`,
+      period: t('experience.engeform.period'),
       description: t('experience.engeform.description'),
-      skills: ['Python', 'SQL', 'API', 'AI agents', 'Microsoft Fabric', 'Power BI'],
+      skills: ['Python', 'Microsoft Fabric', 'SQL', 'APIs', 'IA'],
     },
     {
       title: t('experience.bs.title'),
       company: t('experience.bs.company'),
       period: t('experience.bs.period'),
       description: t('experience.bs.description'),
-      skills: ['Technical Support', 'Network Management', 'Asset Management'],
+      skills: ['TeamViewer', 'LogMeIn', 'Asset Management', 'Network'],
     },
     {
       title: t('experience.ykp.title'),

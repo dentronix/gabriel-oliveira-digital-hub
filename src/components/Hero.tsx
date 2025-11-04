@@ -15,7 +15,7 @@ const Hero = () => {
             <span className="text-gradient">Gabriel Oliveira</span>
           </h1>
           <h2 className="text-xl md:text-2xl font-medium mb-8 text-muted-foreground">
-            BI Intern | Python Automation | Data Science
+            {t('hero.subtitle')}
           </h2>
           <p className="text-lg mb-8">
             {t('about.description')}
